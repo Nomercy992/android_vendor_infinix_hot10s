@@ -52,7 +52,6 @@ PRODUCT_COPY_FILES += \
     vendor/infinix/hot10s/proprietary/etc/init/android.hardware.keymaster@4.0-service.beanpod.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/android.hardware.keymaster@4.0-service.beanpod.rc
     
 PRODUCT_PACKAGES += \
-    EngineerMode \
     ImsService \
     mediatek-common \
     mediatek-framework \
