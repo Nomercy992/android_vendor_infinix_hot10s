@@ -53,7 +53,6 @@ PRODUCT_COPY_FILES += \
     
 PRODUCT_PACKAGES += \
     ImsService \
-    EngineerMode \
     mediatek-common \
     mediatek-framework \
     mediatek-ims-base \
