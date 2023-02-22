@@ -38,6 +38,8 @@ PRODUCT_COPY_FILES += \
     
     vendor/infinix/hot10s/proprietary/lib64/libem_support_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libem_support_jni.so \
 
+    vendor/infinix/hot10s/proprietary/etc/init/android.hardware.keymaster@4.0-service.beanpod.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/android.hardware.keymaster@4.0-service.beanpod.rc
+
 # IMS blobs
 PRODUCT_COPY_FILES += \
     vendor/infinix/hot10s/proprietary/lib/libcomutils.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libcomutils.so \
@@ -90,6 +92,7 @@ PRODUCT_COPY_FILES += \
 
 
 PRODUCT_PACKAGES += \
+<<<<<<< HEAD
     EngineerMode \
     ImsService \
     mediatek-common \
@@ -101,3 +104,6 @@ PRODUCT_PACKAGES += \
     mediatek-telecom-common \
     mediatek-telephony-base \
     mediatek-telephony-common
+=======
+    EngineerMode
+>>>>>>> cc7372ce68003b4446e6cc06b4868a29a2be4022
