@@ -51,6 +51,8 @@ PRODUCT_COPY_FILES += \
     
     vendor/infinix/hot10s/proprietary/lib64/libem_support_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libem_support_jni.so \
 
+    vendor/infinix/hot10s/proprietary/etc/init/android.hardware.keymaster@4.0-service.beanpod.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/android.hardware.keymaster@4.0-service.beanpod.rc
+
 # IMS blobs
 PRODUCT_COPY_FILES += \
     vendor/infinix/hot10s/proprietary/lib/libcomutils.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libcomutils.so \
