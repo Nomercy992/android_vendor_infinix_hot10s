@@ -90,16 +90,13 @@ dex_import {
 }
 
 dex_import {
-	name: "mediatek-telephony-base",
-
-	owner: "infinix",
-
-	jars: ["proprietary/framework/mediatek-telephony-base.jar"],
-
-}
-
-dex_import {
 	name: "mediatek-telephony-common",
 	owner: "infinix",
 	jars: ["proprietary/framework/mediatek-telephony-common.jar"],
+}
+
+dex_import {
+	name: "mediatek-telecom-common",
+	owner: "infinix",
+	jars: ["proprietary/framework/mediatek-telecom-common.jar"]
 }
