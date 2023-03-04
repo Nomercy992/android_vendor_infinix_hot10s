@@ -52,7 +52,7 @@ PRODUCT_COPY_FILES += \
     vendor/infinix/hot10s/proprietary/system_ext/lib64/vendor.mediatek.hardware.videotelephony@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.videotelephony@1.0.so \
     vendor/infinix/hot10s/proprietary/system_ext/lib/vendor.mediatek.hardware.videotelephony@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.mediatek.hardware.videotelephony@1.0.so \
     vendor/infinix/hot10s/proprietary/vendor/lib64/vendor.mediatek.hardware.videotelephony@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.videotelephony@1.0.so \
-    vendor/infinix/hot10s/proprietary/vendor/lib/vendor.mediatek.hardware.videotelephony@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.videotelephony@1.0.so
+
 
 PRODUCT_PACKAGES += \
     EngineerMode \
@@ -63,6 +63,7 @@ PRODUCT_PACKAGES += \
     mediatek-ims-common \
     mediatek-ims-extension-plugin \
     mediatek-ims-legacy \
+    mediatek-wfo-legacy \
     mediatek-telecom-common \
     mediatek-telephony-base \
     mediatek-telephony-common
