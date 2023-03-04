@@ -78,15 +78,24 @@ dex_import {
 }
 
 dex_import {
-	name: "mediatek-telecom-common",
+	name: "mediatek-wfo-legacy",
 	owner: "infinix",
-	jars: ["proprietary/framework/mediatek-telecom-common.jar"],
+	jars: ["proprietary/framework/mediatek-wfo-legacy.jar"],
 }
 
 dex_import {
 	name: "mediatek-telephony-base",
 	owner: "infinix",
 	jars: ["proprietary/framework/mediatek-telephony-base.jar"],
+}
+
+dex_import {
+	name: "mediatek-telephony-base",
+
+	owner: "infinix",
+
+	jars: ["proprietary/framework/mediatek-telephony-base.jar"],
+
 }
 
 dex_import {
